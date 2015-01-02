@@ -25,6 +25,5 @@ class Week1Tests extends Specification {
     "remove only consecutive dup." in {
       solution.uniq("aabbb") must be("ab")
     }
-
   }
 }

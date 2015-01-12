@@ -15,6 +15,7 @@ Izdelava vaše domače naloge bo potekala na sledeči način
  5. Ko boste vse naloge rešili (ali pa bo konec vaj), na učilnici oddajte datoteki `Main.scala` in `MainTests.scala`.
 
 V nadaljevanju so podana navodila nalog. Naloge označene z :crown: (t.i. carske naloge) bodo načeloma malo težje in se jih lotite šele, ko končate vse ostalo.  
+*N.B.* v rešitvah nikoli ne uporabite spremenljivk (var) ali kakršnihkoli zank. Vse implementirajte zgolj z vrednostmi (val) in rekurzijo.
 
 ## Naloga 1.
   Napiši funkcijo `pyramid(n:Int):String`, ki vrne smrekico z n vrsticami

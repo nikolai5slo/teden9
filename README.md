@@ -14,7 +14,7 @@ Izdelava vaše domače naloge bo potekala na sledeči način
  4. V `sbt` lupini med pisanjem rešitev testirajte, če vaša koda že deluje. Uporabite ukaze `compile`, `test` in `console`.
  5. Ko boste vse naloge rešili (ali pa bo konec vaj), na učilnici oddajte datoteki `Main.scala` in `MainTests.scala`.
 
-V nadaljevanju so podana navodila nalog. Naloge označene z :crown: bodo načeloma malo težje in se jih lotite šele, ko končate vse ostalo. 
+V nadaljevanju so podana navodila nalog. Naloge označene z :crown: (t.i. carske naloge) bodo načeloma malo težje in se jih lotite šele, ko končate vse ostalo.  
 
 ## Naloga 1.
   Napiši funkcijo `pyramid(n:Int):String`, ki vrne smrekico z n vrsticami
@@ -33,9 +33,5 @@ Napišite funkcijo `uniq(s:String): String`, ki za podani niz vrne isti niz, kje
 
 ## Naloga 3.:crown:
 Napišite funkcijo `isLycherel(n: BigInt): Boolean`, ki za podano število (števila so lahko zelo velika, zato se uporablja `BigInt`) ugotovi, ali je to  *Lycherelovo število*.
-Več podrobnosti o teh številih lahko najdete na:
+Več podrobnosti o teh številih lahko najdete v nalogi iz projekta Euler.
  https://projecteuler.net/problem=55
-## Navodila za oddajo
-Na učilnici oddajte datoteki Main.scala in MainTests.scala.
-
-## Navodila za ocenjevanje

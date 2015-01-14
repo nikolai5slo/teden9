@@ -9,33 +9,33 @@ class Week1Tests extends Specification {
        solution.pyramid(-1) must have size(0)
     }
     "draw a nice pyramid" in {
-      solution.pyramid(5) must be("""    *
+      solution.pyramid(5) mustEqual("""    *
    ***
   *****
  *******
 *********
-      """)
+""")
     }
   }
 /* testing the uniq function */
   "The uniq function" should {
     "do nothing if there are no dups." in {
-      solution.uniq("ababa") must be("ababa")
+      solution.uniq("ababa") mustEqual("ababa")
     }
 
     "remove only consecutive dup." in {
-      solution.uniq("aabbb") must be("ab")
+      solution.uniq("aabbb") mustEqual("ab")
     }
   }
 
   /* testing isLycherel function */
-  "The isLycherel function" should {
+ "The isLycherel function" should {
     "return false if is not Lycherel " in {
-      solution.isLycherel(???) must be(false)
+      solution.isLycherel(???) mustEqual(false)
     }
 
     "return true if it is Lycherel" in {
-      solution.isLycherel(???) must be(true)
+      solution.isLycherel(???) mustEqual(true)
     }
   }
 

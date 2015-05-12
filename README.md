@@ -40,7 +40,7 @@ http://www.scala-lang.org/api/2.11.5/index.html#scala.io.Source$
 Ta manipulator naj izpiše tweete, če so zapisani v angleškem jeziku.
 
 
- ## Naloga 2.
+## Naloga 2.
 
 Napišite manipulator, ki bo zbiral frekvence pojavnosti besed v toku tweetov.
 

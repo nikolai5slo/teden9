@@ -54,6 +54,12 @@ object NalogaDemo {
   }
 }
 
+// Naloga 1
+object EnglishManipulator extends TweetManipulator {
+  def isEnglish(l:List[String]):Boolean = ???
+  def process(tweet: String) = ???
+  def outputFinal = ???
+}
 
 object Naloga1 {
   def main(args: Array[String]) {
@@ -62,13 +68,23 @@ object Naloga1 {
 }
 
 
+// Naloga 2
+object FreqManipulator extends TweetManipulator {
+  def process(tweet: String) = ???
+  def outputFinal = ???
+}
+
 object Naloga2 {
   def main(args: Array[String]) {
     //TODO
   }
 }
 
-
+// Naloga 3
+object SentimentManipulator extends TweetManipulator {
+  def process(tweet: String) = ???
+  def outputFinal = ???
+}
 object Naloga3 {
   def main(args: Array[String]) {
     //TODO

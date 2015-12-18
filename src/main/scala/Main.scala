@@ -2,6 +2,7 @@ import twitter4j._
 import scala.collection.mutable.HashMap
 import scala.collection.JavaConversions._
 import scala.io._
+import scalax.chart.api._
 
 //Tega razreda ni potrebno spreminjati, samo dodajte svoje ključe iz Twitterja
 class TweetStreamer(manipulator: TweetManipulator) {
@@ -56,7 +57,7 @@ object NalogaDemo {
 
 // Naloga 1
 object EnglishManipulator extends TweetManipulator {
-  def isEnglish(l:List[String]):Boolean = ???
+  def isEnglish(l: List[String]): Boolean = ???
   def process(tweet: String) = ???
   def outputFinal = ???
 }
@@ -67,9 +68,10 @@ object Naloga1 {
   }
 }
 
-
 // Naloga 2
 object FreqManipulator extends TweetManipulator {
+  def isCommon(w: String): Boolean = ???
+  def mostCommon(l: List[String]): List[(String, Int)] = ???
   def process(tweet: String) = ???
   def outputFinal = ???
 }
@@ -82,6 +84,7 @@ object Naloga2 {
 
 // Naloga 3
 object SentimentManipulator extends TweetManipulator {
+  def sentimentValue(tweet: List[String]):Int = ???
   def process(tweet: String) = ???
   def outputFinal = ???
 }
